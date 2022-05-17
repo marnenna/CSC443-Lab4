@@ -13,7 +13,7 @@ sort($month);
 
 $arrlength = count($month);
 foreach($month as $key => $x_value){
-echo "Key=" . $key . "Value=" . $x_value;
+echo "The value of key " . $key . "is:" . $x_value;
 echo "<br>";
 }
 
