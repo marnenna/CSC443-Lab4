@@ -17,6 +17,10 @@ echo "The value of key " . $key . " is: " . $x_value;
 echo "<br>";
 }
 
+foreach ($month as $x_value) {
+    echo "Value: $value ""<br>";
+    }
+
 ?>
 </body>
 </html>
