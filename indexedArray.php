@@ -12,8 +12,8 @@ $month = array ("January" ,"February" ,"March", "April","May" ,"June" ,"July","A
 sort($month);
 
 $arrlength = count($month);
-foreach($month as $x => $x_value){
-echo "Key=" . $x . "Value=" . $x_value;
+foreach($month as $key => $x_value){
+echo "Key=" . $key . "Value=" . $x_value;
 echo "<br>";
 }
 
