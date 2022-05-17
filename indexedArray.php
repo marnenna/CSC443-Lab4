@@ -15,6 +15,8 @@ for($x = 0; $x < $arrlength; $x++){
     echo $month[$x];
     echo "<br>";
 }
+
+asort($month, sort_string);
 ?>
 </body>
 </html>
