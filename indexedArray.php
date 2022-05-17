@@ -18,7 +18,7 @@ echo "<br>";
 }
 
 foreach ($month as $x_value) {
-    echo "Value: $value ""<br>";
+    echo "Value: $value "'<br>';
     }
 
 ?>
