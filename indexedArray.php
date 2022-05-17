@@ -13,7 +13,7 @@ $arrlength=count($month);
 
 for($x=0; $x < $arrlength; $x++){
     echo $month[$x];
-    echo <"br">;
+    
 }
 
 
