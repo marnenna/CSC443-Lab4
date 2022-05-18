@@ -14,7 +14,7 @@
 
         echo "The number of days in the shortest month: " . min($monthDays);
         echo "<br>";
-        echo "The name of the shortest month: " . array_search(min($month),$month);
+        echo "The name of the shortest month: " . array_search(min($month));
         echo "<br>";
         echo "The total number of days in a year: " . array_sum($monthDays);
         echo "<br>";
