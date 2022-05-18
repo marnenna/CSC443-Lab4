@@ -20,7 +20,7 @@
     foreach ($monthDays as $days30)
     {
         if($days == 30){
-            echo "$days - $days30 <br>";
+            echo "$monthDayss - $days30 <br>";
         }
     }
     ?>
