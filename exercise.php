@@ -12,10 +12,13 @@
     $month = array("Splorch", "Sploo", "Splat", "Splatt", "Spleen", "Splune", "Spling", "Slendo", "Sploctember", "Splictember", "Splanet", "TheRest");    
     $monthDays = array("Splorch" => 23, "Sploo" => 28, "Splat" => 2, "Splatt" => 3, "Spleen" => 44, "Splune" => 30, "Spling" => 61, "Slendo" => 61, "Sploctember" => 31, "Splictember" => 31, "Splanet" => 30, "TheRest" => 22);
 
-        echo "The number of days in the shortest month " . min($month);
+        echo "The number of days in the shortest month " . min($monthDays);
         echo "<br>";
-        echo "The name of the shortest month " . min($monthDays);
-
+        echo "The name of the shortest month " . min($month);
+        echo "<br>";
+        echo "total number of days in a year" . array_sum($monthDays);
+        echo "<br>";
+        
     ?>
 </body>
 </html>
