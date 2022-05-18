@@ -9,20 +9,8 @@
 <body>
    
     <?php
-
-$result2 = mysql_query('SHOW COLUMNS FROM '.$table) or die('cannot show columns from '.$table);
-if(mysql_num_rows($result2)) {
-    echo '<table cellpadding="0" cellspacing="0" class="db-table">';
-    echo '<tr><th>Field</th><th>Type</th><th>Null</th><th>Key</th><th>Default<th>Extra</th></tr>';
-    while($row2 = mysql_fetch_row($result2)) {
-        echo '<tr>';
-        foreach($row2 as $key=>$value) {
-            echo '<td>',$value,'</td>';
-        }
-        echo '</tr>';
-    }
-    echo '</table><br />';
-}
+    $monthDays = array ("January" => 31 ,"February" => 30 ,"March" => 31, "April" => 30,"May" => 31 ,"June" => 30 ,"July" => 31,"August" => 31,"September" => 30,"October " => 31,"November" => 30,"December" => 31);
+    print_r($monthDays);
     ?>
 </body>
 </html>
