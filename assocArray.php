@@ -16,6 +16,7 @@
     echo "$days" . " - " . "$daysnumber";
     echo "<br>";
     }
+    echo "<br>";
 
     foreach($monthDays as $days => $daysnumber30)
     {
