@@ -15,7 +15,7 @@
 
     foreach($monthDays as $item => $days)
     {
-        echo "$month[$i] - $item<br>";
+        echo "$month[$i] - $days<br>";
         $i++;
 
     }
